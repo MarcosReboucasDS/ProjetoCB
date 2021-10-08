@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" id="com.example.helloworld" version="1.0.0">
   <name>Minimum Template</name>
-  <description/>
+  <description>Made with Monaca (http://monaca.mobi)</description>
   <author/>
   <content src="index.html"/>
   <access origin="*"/>
@@ -105,4 +105,6 @@
   <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
     <string>need to photo library access to save pictures there</string>
   </edit-config>
+  <preference name="WindowsStorePublisherName" value="My Name"/>
+  <preference name="WindowsStoreIdentityName" value="3828ac67-c556-7faa-92a6-33a140ed0df7"/>
 </widget>
